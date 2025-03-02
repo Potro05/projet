@@ -1,0 +1,134 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5733;
+}
+
+/* Section Films */
+.movie-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Section Boutique */
+.shop-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shop-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Section Contact */
+.contact-form {
+    background-color: #222;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    color: #ff5733;
+}
+
+.contact-form .form-control {
+    background: #333;
+    border: none;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.footer .social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Bouton Retour en haut */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: #ff5733;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#backToTop:hover {
+    background-color: #555;
+}
